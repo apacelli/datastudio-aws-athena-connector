@@ -61,7 +61,7 @@ Key                      | Value
 `AWS Region`             | {AWS_REGION}
 `Glue Database Name`     | `default`
 `Glue Table Name`        | `cloudfront_logs`
-`Query Output Location`  | `s3://aws-athena-query-results-{account_id}-us-west-2/data-studio`
+`Query Output Location`  | `s3://aws-athena-query-results-{account_id}-us-east-2/data-studio`
 `Date Range Column Name` | `LogDate`
 
 For `Query Output Location`, AWS should have created a S3 bucket to store the query results, you could find the bucket name in S3 console.
